@@ -14,6 +14,13 @@ There is no periodical cache expiration checks, it could use a handler forcing a
 
 ### Usage
 
+If using ubuntu, please install the following dependency : 
+```
+apt install libvips42 --no-install-recommends
+```
+* Please note that --no-install-recommends is important because otherwise it will install lots of dependencies that [are not needed](https://github.com/libvips/libvips/discussions/2812).
+
+
 Run the server, pass the optional configuration parameter:
 
 	./s3imageserver -c=config.json
