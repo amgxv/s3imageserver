@@ -11,7 +11,7 @@ import (
 	"time"
 
 	"github.com/coccodrillo/vips"
-	"github.com/gosexy/to"
+	"github.com/xiam/to"
 	"github.com/kr/s3"
 )
 
